@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ {
+  font-family: "Lato", sans-serif;
+}
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 300px;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+#container {
+  width: 600px;
+  height: 300px;
+}
+img {  border-radius:25px; 
+  width: 100%;
+  height: 100%;
+  object-position: 0px ;
+  align-self: left;
+}
+.img{
+  width: 35%;
+  float: left;
+ 
+ 
+}
+
+.img1 { width: 35%;
+  float: right;
+}
+
+body {
+  font-family: Arial;
+  font-size: 17px;
+  background: #37353b;
+}
+
+
+
+.container {
+  position: relative;
+  max-width: absolute;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+
+
+.content1 {
+  
+  bottom: 0;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+
+size: 60px;
+}
+.content2 {
+  
+  bottom: 0;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 40px;
+text-align: center
+
+
+}
+
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(100, 22, 22);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: rgb(22, 16, 18);
+  color: white;
+}
+
+.main {
+  padding: 50px;
+  margin-bottom: 70px;
+}
+</style>
+</head>
+<body>
+    <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">Преподаватели</a>
+        <a href="#">Аудитории</a>
+        <a href="#">Наши достижения</a>
+        <a href="#">Компьютерный центр</a>
+      </div>
+      
+      <button class="openbtn" onclick="openNav()">Дополнительно</button>  
+      
+
+
+<div class="container">
+  
+  <img src="9.jpg" >
+  <div class="content">
+    <h1>Программировние в компьютерных системах</h1>
+    <p><ul>
+      <li>Разработка и внедрениепрограммного обеспечения для компьютерных систем и комплексов; </li>
+<li>Эксплуатация, обслуживание, сопровождение и настройка компьютерных систем и комплексов; 
+  </li>
+  <li>Обеспечение средств защиты информации в компьютерных системах и комплексах.</li>
+    </ul>
+        </p>
+
+       
+  </div>
+
+</div>
+
+
+<div class="navbar">
+    <a href="диплом.html">На главную</a>
+    <a href="Новости.html">Новости</a>
+    <a href ="Связь.html">Свяжитесь с нами</a>
+  </div>
+  
+  <div class="main">
+    
+    <div class="content1">
+<h2>Компьютерный центр</h2>
+<h1>Общие сведения о подразделе</h1>
+<p>В состав компьютерного центра нашего техникума входят: </p>
+<li> Кабинет	№318 – лаборатория информатики и ИКТ с количеством персональных компьютеров (далее ПК) 10 штук;</li>
+   <Li> Кабинет №320 – лаборатория систем управления БД с количеством ПК – 9 штук;</Li> 
+   <li>Кабинет	№321 – лаборатория персональных ЕОМ с количеством ПК – 9 штук;</li>
+   <li> Кабинет №322 – кабинет технических средств управления с 9 ПК.</li>
+
+   <h2>Штат компьютерного центра:</h2>
+   <p>-заведующий учебными лабораториями информационных технологий </p>
+   <p>-инженер-электронщик </p>
+   <p>-лаборант и два оператора</p>
+   <p>Материальная база компьютерного центра включает в себя современные производительные компьютеры на базе двухъядерного процессора Intel Pentium G2030 3GHz, с оперативной памятью – 2 Гбайт, объёмом жёсткого диска – 500 Гбайт.</p><p>На базе компьютерного центра развёрнута локальная сеть, комбинированной топологии (рис.3), с центральным коммутатором, расположенным в кабинете заведующего учебными лабораториями. К нему подключены коммутаторы аудиторий №№321, 322, 320 и беспроводные маршрутизаторы, находящиеся на территории первого корпуса.</p>
+   <img src="Безымянный.jpg" >
+
+</div></div>
+ 
+<script>
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+</script>
+
+  
+
+</body>
+</html>
+
+
+
